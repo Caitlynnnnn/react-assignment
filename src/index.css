@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lavishly+Yours&family=Tangerine:wght@400;700&display=swap');
+*{
+  padding:0;
+  }
+  
+ .page{
+     background-color: #827f7b;
+     display: flex;
+     height:100vh;
+     align-items:center;
+     text-align: center;
+     justify-content: center;
+     flex-direction: row;
+   
+ }
+
+
+ .card{
+     align-content: center;
+     background-color: #FFFF;
+     height: 400px;
+     width:350px;
+     border-radius: 50px;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+ }
+
+ h3{
+     color:#a79e8f;
+     margin: 15px 15px;
+     font-size: xx-large;
+    
+    
+     font-family: "Tangerine", cursive;
+     font-weight: 1000;
+     font-style: normal;
+     
+ }
+
+ p{
+     color: #231e1a;
+     margin-top: 18px;
+     font-size: small;
+
+     font-family: "Cutive Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+         
+ }
+
+ div{
+     margin-bottom: 30px;
+ }
+
+ button{
+     text-transform: uppercase;
+     padding: 5px 30px;
+     background-color:#a79e8f;
+     color:#FFFF;
+     border-radius: 10px;
+     letter-spacing: 1px;
+
+     font-family: "Cutive Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+ 
+ }
+ 
